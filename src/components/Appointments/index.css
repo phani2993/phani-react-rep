@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+  }
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .add-button {
+    background-color: #171f46;
+    height: 30px;
+    width: 65px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Roboto';
+    border-radius: 8px;
+    border-width: 0px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  .hr-line {
+    border: 1px solid #b5b7c4;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .starred-button {
+    background-color: transparent;
+    border-width: 1px;
+    border-color: #9796f0;
+    height: 25px;
+    width: 60px;
+    color: #171f46;
+    font-size: 12px;
+    font-family: 'Roboto';
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .filled-button {
+    background-color: #171f46;
+    color: #ffffff;
+  }
+  .heading2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #171f46;
+    font-family: 'Roboto';
+  }
+  .appointmentsImg {
+    height: 250px;
+    width: 400px;
+  }
+  .form {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #b5b7c4;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+  }
+  .ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+  .input {
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+
+  .mainHead {
+    font-family: 'Roboto';
+    color: #171f46;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}

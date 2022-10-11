@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.list-item {
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 16px;
+  margin-right: 16px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #171f46;
+  font-weight: 600;
+}
+.box {
+  display: flex;
+
+  justify-content: space-between;
+}
+.star-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.li-date {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.star-image {
+  height: 24px;
+  width: 24px;
+}
